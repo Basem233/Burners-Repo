@@ -93,11 +93,3 @@ STD TIMER0_voidSetCompareMatchValue ( u8 Copy_u8CompareMatchValue );
 
 
 #endif
-/* Function Name : TIMER0_voidSetBusyWait_ms                                                      */
-/* Description : Set Busy Wait Function work as Delay by make Processor Stuck in Fun. during Time */                                          
-/* Fun. Argument1: Copy_u32Time_ms  { any Time in Milliseconds }                                  */
-/* Fun. Return : void                                                                             */
-/**************************************************************************************************/
-
-
-#endif

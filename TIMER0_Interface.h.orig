@@ -15,6 +15,14 @@
 /***************************  [6]  void __vector_11 (void)   __attribute__((signal));  ************************/
 /***************************  [7]  void __vector_10 (void)   __attribute__((signal)); ************************/
 /*============================================================================================================*/
+/***************************  [1]  TIMER0_voidInit                                     ************************/
+/***************************  [2]  TIMER0_voidSetCallBack_OVF                          ************************/
+/***************************  [3]  TIMER0_voidSetCallBack_CTC                          ************************/
+/***************************  [4]  TIMER0_voidSetPreloadValue                          ************************/
+/***************************  [5]  TIMER0_voidSetCompareMatchValue                     ************************/
+/***************************  [6]  void __vector_11 (void)   __attribute__((signal));  ************************/
+/***************************  [7]  void __vector_10 (void)   __attribute__((signal)); ************************/
+/*============================================================================================================*/
 /*===============================================*/
 /*              TIMER0 Mode Selection            */
 /*-----------------------------------------------*/
@@ -85,14 +93,6 @@ STD TIMER0_voidSetCallBack_CTC (void (*Local_PointerToFunction_CTC) (void));
 STD TIMER0_voidSetCompareMatchValue ( u8 Copy_u8CompareMatchValue );
 
 /**************************************************************************************************/
-/* Function Name : TIMER0_voidSetBusyWait_ms                                                      */
-/* Description : Set Busy Wait Function work as Delay by make Processor Stuck in Fun. during Time */                                          
-/* Fun. Argument1: Copy_u32Time_ms  { any Time in Milliseconds }                                  */
-/* Fun. Return : void                                                                             */
-/**************************************************************************************************/
-
-
-#endif
 /* Function Name : TIMER0_voidSetBusyWait_ms                                                      */
 /* Description : Set Busy Wait Function work as Delay by make Processor Stuck in Fun. during Time */                                          
 /* Fun. Argument1: Copy_u32Time_ms  { any Time in Milliseconds }                                  */
