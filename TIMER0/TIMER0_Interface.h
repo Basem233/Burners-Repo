@@ -1,12 +1,4 @@
-/*====================================================================================================*/
-/*  File        : TIMER0_Interface.h                                                                  */
-/*  Description : This interface file includes TIMER0 Driver prototypes and declarations for Atmega32 */
-/*  Author      : Ahmed Bahaa Taha Nasr. Embedded SW Engineer                                         */
-/*  Date        : 7/4/2023                                                                            */
-/*  Linkedin    : https://www.linkedin.com/in/ahmed-bahaa1/                                           */
-/*  Git account : https://github.com/ahmedbahaa11                                                     */
-/*  mail        : ahmedbahaataha7@gmil.com                                                            */
-/*====================================================================================================*/
+
 
 /* File Gaurd by ifndef & endif */
 #ifndef TIMER0_INTERFACE_H
