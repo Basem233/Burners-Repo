@@ -1,4 +1,3 @@
-
 /* File Gaurd by ifndef & endif */
 #ifndef TIMER0_PRIVATE_H
 #define TIMER0_PRIVATE_H
